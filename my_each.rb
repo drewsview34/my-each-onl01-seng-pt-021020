@@ -11,9 +11,5 @@ def my_each(array)
     puts"Hey! No block was given!"
 end
 
-my_each([1, 2, 3, 4]) do |number|
-  if number.start_with?("T")
-    puts i
-  end
-end
+
 
